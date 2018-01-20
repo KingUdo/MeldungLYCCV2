@@ -1,0 +1,230 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+.logo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.hinweis {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+.meldung {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ueberschrift {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.eintrag {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.feldbezeichnung {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+.logo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.vereinsname {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #999;
+}
+.vereinsadresse {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #999;
+}
+</style>
+</head>
+
+<body>
+<center>	
+<table width="700px" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+				<td width="700"><span class="vereinsname">LIBERA YACHTCLUB CHIEMSSE E.V.</span></td>
+		</tr>
+		<tr>
+				<td><span class="vereinsadresse">Harrasserstr. 49 - 83209 Prien am Chiemsee</span></td>
+		</tr>
+</table>
+<table width="700px" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+				<td width="700">&nbsp;</td>
+		</tr>
+		<tr>
+				<td><span class="meldung">Meldung zur Regatta: {{ Meldung.Veranstaltung }}</span></td>
+		</tr>
+		<tr>
+				<td>&nbsp;</td>
+		</tr>
+</table>
+<table width="700px" border="0">
+  <tr>
+    <td colspan="2" class="ueberschrift">Schiffsführer / Steuermann</td>
+    <td width="8%">&nbsp;</td>
+    <td colspan="2" class="ueberschrift">Gemeldetes Boot</td>
+  </tr>
+  <tr>
+    <td width="9%" align="left" valign="bottom" class="feldbezeichnung">Name:</td>
+    <td width="35%" class="eintrag">{{ Meldung.Name }}</td>
+    <td>&nbsp;</td>
+    <td width="12%" align="left" valign="bottom" class="feldbezeichnung">Bootstyp:</td>
+    <td width="36%" class="eintrag">{{ Meldung.Bootstyp }}</td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom" class="feldbezeichnung">Vorname:</td>
+    <td class="eintrag">{{ Meldung.Vorname }}</td>
+    <td>&nbsp;</td>
+    <td align="left" valign="bottom" class="feldbezeichnung">Bootsname:</td>
+    <td class="eintrag">{{ Meldung.Bootsname }}</td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom" class="feldbezeichnung">Straße:</td>
+    <td class="eintrag">{{ Meldung.Street}}</td>
+    <td>&nbsp;</td>
+    <td align="left" valign="bottom" class="feldbezeichnung">Segelnummer:</td>
+    <td class="eintrag">{{ Meldung.Segelnummer }}</td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom" class="feldbezeichnung">PLZ / Ort:</td>
+    <td class="eintrag">{{ Meldung.Ort }}</td>
+    <td>&nbsp;</td>
+    <td align="left" valign="bottom" class="feldbezeichnung">Yardstick:</td>
+    <td class="eintrag">{{ Meldung.Yardstick }}</td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom" class="feldbezeichnung">eMail:</td>
+    <td class="eintrag">{{ Meldung.Email }}</td>
+    <td>&nbsp;</td>
+    <td align="left" valign="bottom" class="feldbezeichnung">Spinnaker:</td>
+    <td class="eintrag">{{ Meldung.Spinnaker_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom" class="feldbezeichnung">Telefon:</td>
+    <td class="eintrag">{{ Meldung.Telefon }}</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom" class="feldbezeichnung">Segelclub:</td>
+    <td class="eintrag">{{ Meldung.Segelclub }}</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="700px" border="0">
+  <tr>
+    <td width="241" class="feldbezeichnung">Ich nehme am Abendprogramm teil: <span class="eintrag">{{ Meldung.Abendprogramm_Ja_Nein }}</span></td>
+    <td width="10">&nbsp;</td>
+    <td width="435" class="feldbezeichnung">Und brauche bitte<span class="eintrag"> {{ Meldung.Abendprogramm_TicketNum }} </span>Tickets.</td>
+  </tr>
+</table>
+<br>
+<table width="700px" border="0">
+  <tr>
+    <td colspan="4" class="ueberschrift">Crew</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag"> {{ Meldung.Crew_Name1 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew1_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag">{{ Meldung.Crew_Name2 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew2_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag">{{ Meldung.Crew_Name3 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew3_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag">{{ Meldung.Crew_Name4 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew4_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag">{{ Meldung.Crew_Name5 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew5_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag">{{ Meldung.Crew_Name6 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew6_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td class="feldbezeichnung">Name / Club:</td>
+    <td class="eintrag">{{ Meldung.Crew_Name7 }}</td>
+    <td class="feldbezeichnung">Abendessen:</td>
+    <td class="eintrag">{{ Meldung.Abendprogramm_Crew7_Ja_Nein }}</td>
+  </tr>
+  <tr>
+    <td width="13%" class="feldbezeichnung">Name / Club:</td>
+    <td width="39%" class="eintrag">{{ Meldung.Crew_Name8 }}</td>
+    <td width="13%" class="feldbezeichnung">Abendessen:</td>
+    <td width="35%" class="eintrag">{{ Meldung.Abendprogramm_Crew8_Ja_Nein }}</td>
+  </tr>
+</table>
+<br>
+<table width="700px" border="0">
+  <tr>
+    <td width="26%" align="left" valign="bottom">_______________</td>
+    <td width="41%" align="left" valign="bottom">__________________________</td>
+    <td width="10%">&nbsp;</td>
+    <td width="23%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left" class="feldbezeichnung ueberschrift">Datum</td>
+    <td align="left" class="feldbezeichnung meldung">Unterschrift</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+  		<td align="left" class="feldbezeichnung">&nbsp;</td>
+  		<td colspan="3" align="left" class="feldbezeichnung">Mit seiner Unterschrift bestätigt der Meldende, von der nachstehenden</td>
+  		</tr>
+  <tr>
+  		<td align="left" class="feldbezeichnung">&nbsp;</td>
+  		<td colspan="3" align="left" class="feldbezeichnung">Haftungsausschluss-Klausel Kenntnis genommen zu haben.</td>
+  		</tr>
+  <tr>
+  		<td align="left" class="feldbezeichnung">&nbsp;</td>
+  		<td colspan="3" align="left" class="feldbezeichnung">Durch die Meldung verpflichten Sie sich zur Zahlung des Meldegeldes.</td>
+  		</tr>
+  <tr>
+    <td align="left" class="feldbezeichnung">&nbsp;</td>
+    <td colspan="3" align="left" class="feldbezeichnung">Bei Minderjährigen Unterschrift des Erziehungsberechtigten.</td>
+  </tr>
+</table>
+<br>
+<table width="700px" border="0">
+  <tr>
+    <td colspan="4"><p class="ueberschrift">Haftungsausschluss</p>
+      <p class="hinweis">Die Verantwortung für die Entscheidung eines Bootsführers, an einer Wettfahrt teilzunehmen oder sie fortzusetzen, liegt allein bei ihm, er übernimmt insoweit auch die Verantwortung für seine Mannschaft. Der Bootsführer ist für die Eignung und das richtige seemännische Verhalten seiner Crew sowie für die Eignung und den verkehrssicheren Zustand des gemeldeten Bootes verantwortlich.</p>
+      <p class="hinweis">Der Veranstalter ist berechtigt, in Fällen höherer Gewalt oder aufgrund behördlicher Anordnungen oder aus Sicherheitsgründen, Änderungen in der Durchführung der Veranstaltung vorzunehmen oder die Veranstaltung abzusagen. In diesen Fällen besteht keine Schadenersatzverpflichtung des Veranstalters gegenüber dem Teilnehmer, sofern der Veranstalter den Grund für die Änderung oder Absage nicht vorsätzlich oder grob fahrlässig herbeigeführt hat.</p>
+      <p class="hinweis">Eine Haftung des Veranstalters, gleich aus welchem Rechtsgrund, für Sach- und Vermögensschäden jeder Art und deren Folgen, die dem Teilnehmer während oder im Zusammenhang mit der Teilnahme an der Veranstaltung durch ein Verhalten des Veranstalters, seiner Vertreter, Erfüllungsgehilfen oder Beauftragten entstehen, ist bei der Verletzung von Pflichten, die nicht Haupt- /bzw. vertragswesentliche Pflichten (Kardinalpflichten) sind, beschränkt auf Schäden, die vorsätzlich oder grob fahrlässig verursacht wurden.</p>
+      <p class="hinweis">Bei der Verletzung von Kardinalpflichten ist die Haftung des Veranstalters in Fällen einfacher Fahrlässigkeit beschränkt auf vorhersehbare, typischerweise eintretende Schäden. Soweit die Schadenersatzhaftung des Veranstalters ausgeschlossen oder eingeschränkt ist, befreit der Teilnehmer von der persönlichen Schadenersatzhaftung auch die Angestellten - Arbeitnehmer und Mitarbeiter - Vertreter, Erfüllungsgehilfen, Sponsoren und Personen, die Schleppfahrzeuge, Sicherungsfahrzeuge oder Bergungsfahrzeuge bereitstellen, führen oder bei deren Einsatz behilflich sind, sowie auch alle anderen Personen, denen im Zusammenhang mit der Durchführung der Veranstaltung ein Auftrag erteilt worden ist.</p>
+    <p class="hinweis">Die gültigen Wettfahrtregeln der ISAF incl. aller Zusätze des DSV, die Ordnungsvorschriften Regattasegeln und das Verbandsrecht des DSV, die Klassenvorschriften sowie die Vorschriften der Ausschreibung und Segelanweisung sind einzuhalten und werden ausdrücklich vom Teilnehmer anerkannt.</p></td>
+  </tr>
+</table>
+</center>
+</body>
+</html>

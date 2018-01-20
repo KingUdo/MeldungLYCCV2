@@ -1,0 +1,393 @@
+<html lang="de-DE">
+	<style type="text/css">
+	td{
+		test-align: left;
+		padding: 10px;
+		border: 1px solid gray;
+	}
+	tr {
+		font-family: 'Open Sans', sans-serif;
+		color: #737579;
+		line-height: 1.8;
+		word-wrap: break-word;
+	}
+	th {
+		font-weight: bold;
+		background-color: #DDD;
+		text-align: left;
+		padding: 5px;
+		border: 1px solid gray;
+	}
+	table {
+		border-collapse: separate;
+		margin-bottom: 20px;
+		border: 1px solid #dddddd;
+		border-spacing: 0;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 700px;
+		font-size: 14px;
+		
+	}
+	.sternchen{
+		color: #F00;
+	}
+	h1 {
+		font-family: 'Open Sans', sans-serif;
+	}	
+	</style>
+<!-- VallidationScript -->	
+	<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+
+	<script type="text/javascript" src="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.contentWindow.min.js"></script>
+
+	<script>
+		
+	function validateForm() {
+
+		var subm = true;
+		<!-- Schiffsführer -->
+		if (document.forms["Meldeform"]["Name"].value == "") {
+			document.forms["Meldeform"]["Name"].style.borderColor = "red";
+			subm = false;
+		}else{
+			document.forms["Meldeform"]["Name"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Vorname"].value == "") {
+			document.forms["Meldeform"]["Vorname"].style.borderColor = "red";
+			subm = false;
+		}else{
+			document.forms["Meldeform"]["Vorname"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Bday"].value == "") {
+			document.forms["Meldeform"]["Bday"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Bday"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Street"].value == "") {
+			document.forms["Meldeform"]["Street"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Street"].style.borderColor = "";
+		}
+
+		if (document.forms["Meldeform"]["Ort"].value == "") {
+			document.forms["Meldeform"]["Ort"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Ort"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Land"].value == "") {
+			document.forms["Meldeform"]["Land"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Land"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Email"].value == "") {
+			document.forms["Meldeform"]["Email"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Email"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Mobil"].value == "") {
+			document.forms["Meldeform"]["Mobil"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Mobil"].style.borderColor = "";
+		}
+
+		if (document.forms["Meldeform"]["Club"].value == "") {
+			document.forms["Meldeform"]["Club"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Club"].style.borderColor = "";
+		}
+
+		<!--Boot-->
+
+		if (document.forms["Meldeform"]["Bootsname"].value == "") {
+			document.forms["Meldeform"]["Bootsname"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Bootsname"].style.borderColor = "";
+		}
+
+		if (document.forms["Meldeform"]["Segelnummer"].value == "") {
+			document.forms["Meldeform"]["Segelnummer"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Segelnummer"].style.borderColor = "";
+		}
+
+		<!-- Crew -->
+		if (document.forms["Meldeform"]["Crew_Name1"].value == "") {
+			document.forms["Meldeform"]["Crew_Name1"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Crew_Name1"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Crew1_Bday"].value == "") {
+			document.forms["Meldeform"]["Crew1_Bday"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Crew1_Bday"].style.borderColor = "";
+		}
+		
+		if (document.forms["Meldeform"]["Crew1_Club"].value == "") {
+			document.forms["Meldeform"]["Crew1_Club"].style.borderColor = "red";
+			subm =false;
+		}else{
+			document.forms["Meldeform"]["Crew1_Club"].style.borderColor = "";
+		}		
+
+		<!--Checkboxes-->
+		if (document.forms["Meldeform"]["Haftungsausschuluss"].checked == false) {
+			document.getElementById("Haftungsausschuluss_text").style.color = "red";
+			subm = false;
+		}else{
+			document.getElementById("Haftungsausschuluss_text").style.color = "#737579";
+		}
+		
+		if (document.forms["Meldeform"]["Meldegeld"].checked == false) {
+			document.getElementById("Meldegeld_text").style.color = "red";
+			subm = false;
+		}else{
+			document.getElementById("Meldegeld_text").style.color = "#737579";
+		}
+
+		<!--return-->
+		if (subm == false) {
+			document.getElementById('Fehlermeldung').innerHTML = "Es wurden nicht alle benötigten Felder ausgefüllt, bitte die roten Felder noch einmal überprüfen";
+			window.scrollTo(0, 0);
+		}
+		return subm;
+	}
+</script>
+	
+	<body>
+		<center>
+		<img src="http://www.seascape18.de/wp-content/uploads/2015/10/seascape-logo.jpg" alt="Seascape Logo" width = "600px"><br>
+		<h1>CUP <br>
+		Chiemsee 2018 <br>
+		31.05. bis 3.06.2018</h1></center>
+		<div id="Fehlermeldung" style="color:red; font-family: 'Open Sans', sans-serif;"></div>
+<!--FORM-->
+	<form action = "/Seascape" method = "POST" onsubmit="return validateForm()" name="Meldeform">
+<!-- Gundlegende Infos -->
+		<input type="hidden" name="Veranstaltung" value="Seascape CUP Chiemsee 2018">
+		<table>
+			<tr>
+				<th colspan="2">Schiffsführer / Steuermann</th>
+			</tr>
+			<tr>
+				<td>
+					Name<span class="sternchen">*</span></br>
+					<input type="value" name="Name" maxlength="50">
+				</td>
+				<td>
+					Vorname<span class="sternchen">*</span></br>
+					<input type="value" name="Vorname" maxlength="50">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Geburtsdatum<span class="sternchen">*</span></br>
+					<input type="value" name="Bday" maxlength="50">
+				</td>
+				<td>
+					Straße<span class="sternchen">*</span></br>
+					<input type="value" name="Street" maxlength="100">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					PLZ/Ort<span class="sternchen">*</span></br>
+					<input type="value" name="Ort" maxlength="100">
+				</td>
+				<td>
+					Land<span class="sternchen">*</span></br>
+					<input type="value" name="Land" maxlength="100">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					eMail<span class="sternchen">*</span></br>
+					<input type="value" name="Email" maxlength="50">
+				</td>
+				<td>
+					Telefon</br>
+					<input type="value" name="Tel" maxlength="30">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Mobil<span class="sternchen">*</span></br>
+					<input type="value" name="Mobil" maxlength="30">
+				</td>
+				<td>
+					Segelclub<span class="sternchen">*</span></br>
+					<input type="value" name="Club" maxlength="100">
+				</td>
+			</tr>
+		</table>
+<!--Meldung für Boot-->
+		<table>
+			<tr>
+				<th colspan="2">Boot Spezifikationen</th>
+			</tr>
+			<tr>
+				<td>
+					Bootstyp<span class="sternchen">*</span></br>
+					Seascape 18<input type="radio" name="Bootstyp" value="Seascape 18">  Seascape 24<input type="radio" name="Bootstyp" value="Seascape 24" checked="checked">
+				</td>
+				<td>
+					Bootsname<span class="sternchen">*</span></br>
+					<input type="value" name="Bootsname" maxlength="50">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Segelnummer<span class="sternchen">*</span></br>
+					<input type="value" name="Segelnummer" maxlength="30">
+				</td>
+			</tr>
+		</table>
+<!--Crew-->
+		<table>
+			<tr>
+				<th colspan="2">Crewmitglied 1</th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					Name Vorname<span class="sternchen">*</span></br>
+					<input type="value" name="Crew_Name1" maxlength="50"> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Geburtsdatum<span class="sternchen">*</span><br>
+					<input type="date" name="Crew1_Bday">
+				</td>
+				<td>
+					Club<span class="sternchen">*</span><br>
+					<input type="value" name="Crew1_Club" maxlength="50">
+				</td>
+			</tr>
+			
+			<tr>
+				<th colspan="2">Crewmitglied 2</th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					Name Vorname</br>
+					<input type="value" name="Crew_Name2" maxlength="50"> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Geburtsdatum<br>
+					<input type="date" name="Crew2_Bday">
+				</td>
+				<td>
+					Club<br>
+					<input type="value" name="Crew2_Club" maxlength="50">
+				</td>
+			</tr>
+			
+			
+			<tr>
+				<th colspan="2">Crewmitglied 3</th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					Name Vorname</br>
+					<input type="value" name="Crew_Name3" maxlength="50"> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Geburtsdatum<br>
+					<input type="date" name="Crew3_Bday">
+				</td>
+				<td>
+					Club<br>
+					<input type="value" name="Crew3_Club" maxlength="50">
+				</td>
+			</tr>
+			
+		</table>
+		<br>
+<!--Haftungsausschuss-->
+		<table>
+			<tr>
+				<th>
+				Haftungssauschuss
+				</th>
+			</tr>
+			<tr>
+				<td>
+					Die Verantwortung für die Entscheidung eines Bootsführers, an einer Wettfahrt teilzunehmen
+					oder sie fortzusetzen, liegt allein bei ihm, er übernimmt insoweit auch die Verantwortung für
+					seine Mannschaft. Der Bootsführer ist für die Eignung und das richtige seemännische Verhalten
+					seiner Crew sowie für die Eignung und den verkehrssicheren Zustand des gemeldeten Bootes
+					verantwortlich. Der Veranstalter ist berechtigt, in Fällen höherer Gewalt oder aufgrund
+					behördlicher Anordnungen oder aus Sicherheitsgründen, Änderungen in der Durchführung der
+					Veranstaltung vorzunehmen oder die Veranstaltung abzusagen. In diesen Fällen besteht keine
+					Schadenersatzverpflichtung des Veranstalters gegenüber dem Teilnehmer. Eine Haftung des
+					Veranstalters, gleich aus welchem Rechtsgrund, für Sach- und Vermögensschäden jeder Art und
+					deren Folgen, die dem Teilnehmer während oder im Zusammenhang mit der Teilnahme an der
+					Veranstaltung durch ein Verhalten des Veranstalters, seiner Vertreter, Erfüllungsgehilfen oder
+					Beauftragten entstehen, ist bei der Verletzung von Pflichten, die nicht Haupt-/bzw.
+					vertragswesentliche Pflichten (Kardinalpflichten) sind, beschränkt auf Schäden, die vorsätzlich
+					oder grob fahrlässig verursacht wurden. Bei der Verletzung von Kardinalpflichten ist die
+					Haftung des Veranstalters in Fällen einfacher Fahrlässigkeit beschränkt auf vorhersehbare,
+					typischerweise eintretende Schäden. Soweit die Schadenersatzhaftung des Veranstalters
+					ausgeschlossen oder eingeschränkt ist, befreit der Teilnehmer von der persönlichen
+					Schadenersatzhaftung auch die Angestellten – Arbeitnehmer und Mitarbeiter – Vertreter
+					Erfüllungsgehilfen, Sponsoren und Personen, die Schlepp-, Sicherungs-, oder Bergungsfahrzeuge
+					bereitstellen, führen oder bei deren Einsatz behilflich sind, sowie auch alle anderen Personen,
+					denen im Zusammenhang mit der Durchführung der Veranstaltung ein Auftrag erteilt worden
+					ist. Die gültigen Wettfahrtregeln von World Sailing, die Klassenregeln sowie die Vorschriften der
+					Ausschreibung und Segelanweisung sind einzuhalten und werden ausdrücklich anerkannt.”
+					Es gilt das Recht der Bundesrepublik Deutschland.				
+				</td>
+			</tr>
+		</table>
+<!--Bestätigung-->
+		<table>
+			<tr>
+				<td>
+					<input type="checkbox" name="Haftungsausschuluss">
+				</td>
+				<td>
+					<b id="Haftungsausschuluss_text">Den Haftungsausschluß habe ich gelesen und akzeptiere diesen auch im Namen und in Vollmacht meiner Mannschaft.<span class="sternchen">*</span></b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="Meldegeld">
+				</td>
+				<td>
+					<b id="Meldegeld_text">Durch die Meldung verpflichten Sie sich zur Zahlung des Meldegeldes.<span class="sternchen">*</span></b>
+				</td>
+			</tr>
+		</table>
+<!--SUBMIT-->
+		<div style = "width:100%; max-width: 600px; margin:auto">
+			<input type="submit" value="Meldung abschicken" style="width: 160px; height: 40px; font-family: 'Open Sans', sans-serif; color: #737579;  font-size: 100%">
+		</div>
+	</form>
+	</body>
+	
+</html>

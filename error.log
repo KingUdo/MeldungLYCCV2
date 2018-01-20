@@ -1,0 +1,540 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:44:06] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:46:16] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:48:12] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:48:37] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:49:32] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:52:29] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:53:12] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:53:35] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:53:55] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:54:35] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:55:31] "POST /Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:56:03] "POST /Test HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 14:58:01] "GET /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:00:30] "POST /Seascape HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:01:39] "POST /Seascape HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:02:30] "POST /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:02:42] "GET /Seascape/list HTTP/1.1" 500 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:04:05] "GET /Meldung/Test HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:05:05] "GET /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:06:23] "POST /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:06:46] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018 HTTP/1.1" 500 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:06:50] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018.pdf HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:08:06] "POST /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:08:10] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:08:25] "GET /TestCup HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:08:41] "POST /TestCup HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:09:42] "GET /TestCup HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:09:57] "POST /TestCup HTTP/1.1" 200 -
+INFO:werkzeug:192.168.169.1 - - [19/Jan/2018 15:10:18] "GET /Meldung/TestCup.pdf HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://79.137.84.240:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:20:11] "GET /TestCup HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:20:11] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:20:40] "POST /TestCup HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:20:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:20:59] "GET /Meldung/TestCup.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:20:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:21:28] "GET /seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:21:28] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:21:36] "GET /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:21:36] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:21:53] "POST /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:21:53] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:22:25] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:22:25] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:23:07] "GET /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:23:14] "GET /Ansegeln%202018 HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:23:36] "GET /Cruiser%20Cup%203.%20Wettfahrt%202018 HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:23:59] "GET /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:25:13] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:25:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:26:32] "GET /Ansegeln%202018 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://79.137.84.240:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://79.137.84.240:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://79.137.84.240:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:39:58] "GET /Meldung/Cruiser%20Cup%201.%20Wettfahrt%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:39:58] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:31] "GET /Meldung/Nasegeln%202018.pdf HTTP/1.1" 500 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:38] "GET /Meldung/Ansegeln%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:38] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:54] "GET /Meldung/Ansegeln%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:57] "GET /Meldung/Cruiser%20Cup%201.%20Wettfahrt%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:40:57] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:41:01] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:42:35] "GET /Meldung/Gelb-Schwarzes-Band%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:42:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:34] "GET /Meldung/K%C3%A4nguru-Regatta%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:34] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:37] "GET /Meldung/Cruiser%20Cup%202.%20Wettfahrt%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:44] "GET /Meldung/Cruiser%20Cup%203.%20Wettfahrt%202018 HTTP/1.1" 500 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:44:44] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:45:01] "GET /Meldung/Cruiser%20Cup%203.%20Wettfahrt%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:45:01] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://79.137.84.240:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:45:57] "GET /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:15] "POST /Seascape HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:28] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:31] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:32] "GET /Meldung/Seascape%20CUP%20Chiemsee%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:39] "GET /Ansegeln%202018 HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:46:55] "POST /Ansegeln%202018 HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:04] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:06] "GET /Meldung/Ansegeln%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:13] "GET /Cruiser%20Cup%201.%20Wettfahrt%202018 HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:28] "POST /Cruiser%20Cup%201.%20Wettfahrt%202018 HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:34] "GET /Meldung/Cruiser%20Cup%201.%20Wettfahrt%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:34] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:40] "GET /Gelb-Schwarzes-Band%202018 HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:47:56] "POST /Gelb-Schwarzes-Band%202018 HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:01] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:03] "GET /Meldung/Gelb-Schwarzes-Band%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:06] "GET /Cruiser%20Cup%202.%20Wettfahrt%202018 HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 78 24
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 114 28
+DEBUG:PIL.PngImagePlugin:STREAM b'prVW' 154 558
+DEBUG:PIL.PngImagePlugin:b'prVW' 154 558 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBF' 724 72
+DEBUG:PIL.PngImagePlugin:b'mkBF' 724 72 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkTS' 808 16129
+DEBUG:PIL.PngImagePlugin:b'mkTS' 808 16129 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBS' 16949 191
+DEBUG:PIL.PngImagePlugin:b'mkBS' 16949 191 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 17152 1836
+DEBUG:PIL.PngImagePlugin:b'mkBT' 17152 1836 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 19000 1755
+DEBUG:PIL.PngImagePlugin:b'mkBT' 19000 1755 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 20767 1145
+DEBUG:PIL.PngImagePlugin:b'mkBT' 20767 1145 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 21924 7586
+DEBUG:PIL.PngImagePlugin:b'mkBT' 21924 7586 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29522 339
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29522 339 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 29873 3799
+DEBUG:PIL.PngImagePlugin:b'mkBT' 29873 3799 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 33684 2741
+DEBUG:PIL.PngImagePlugin:b'mkBT' 33684 2741 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 36437 2269
+DEBUG:PIL.PngImagePlugin:b'mkBT' 36437 2269 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 38718 5153
+DEBUG:PIL.PngImagePlugin:b'mkBT' 38718 5153 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 43883 8613
+DEBUG:PIL.PngImagePlugin:b'mkBT' 43883 8613 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'mkBT' 52508 691
+DEBUG:PIL.PngImagePlugin:b'mkBT' 52508 691 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 53211 12816
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 66039 8192
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:18] "POST /Cruiser%20Cup%202.%20Wettfahrt%202018 HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:26] "GET /Meldung/Cruiser%20Cup%202.%20Wettfahrt%202018.pdf HTTP/1.1" 200 -
+INFO:werkzeug:77.22.253.161 - - [20/Jan/2018 00:48:26] "GET /favicon.ico HTTP/1.1" 200 -
